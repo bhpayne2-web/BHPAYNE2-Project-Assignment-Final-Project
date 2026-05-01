@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Contact Guide and Go to ask questions or submit a travel destination idea.">
+  <meta name="keywords" content="contact, submit destination, travel questions">
+  <meta name="author" content="Brianna Payne">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide and Go | Contact</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html">
+      <img src="images/logo.png" alt="Guide and Go logo">
+    </a>
+  </div>
+
+  <h1>Contact</h1>
+
+  <input type="text" placeholder="Search">
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="destinations.html">Destinations</a>
+  <a href="itineraries.html">Itineraries</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<section class="hero">
+  <div>
+    <h2>Submit a Destination</h2>
+    <p>
+      Have a destination you would like to see featured on Guide & Go? Use the form below to submit your idea.
+    </p>
+    <p>
+      This form is included for the class project and uses action="#", so it does not send information to a server.
+    </p>
+  </div>
+
+  <div>
+    <img src="images/plane.jpg" alt="Travel planning">
+  </div>
+</section>
+
+<form action="#">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name">
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email">
+
+  <label for="destination">Destination Suggestion</label>
+  <input type="text" id="destination" name="destination" placeholder="Enter a destination">
+
+  <label for="traveltype">Travel Type</label>
+  <select id="traveltype" name="traveltype">
+    <option value="family">Family Trip</option>
+    <option value="couples">Couples Trip</option>
+    <option value="group">Group Trip</option>
+    <option value="solo">Solo Trip</option>
+  </select>
+
+  <label for="message">Why should this destination be featured?</label>
+  <textarea id="message" name="message" rows="5" placeholder="Share your idea"></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
+</main>
+
+<footer>
+  <p>Email: <a href="mailto:info@guideandgo.com">info@guideandgo.com</a> | Copyright 2026</p>
+</footer>
+
+</body>
+</html>
